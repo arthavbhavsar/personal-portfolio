@@ -252,6 +252,10 @@ textarea {
   overflow: auto;
   resize: vertical; }
 
+.site-logo{
+  width: 170px;
+}
+
 fieldset {
   min-width: 0;
   padding: 0;
@@ -660,6 +664,10 @@ pre {
   -webkit-box-ordinal-group: 12;
   -ms-flex-order: 11;
   order: 11; }
+
+.project_pic video{
+  width: 550px;
+}
 
 .order-12 {
   -webkit-box-ordinal-group: 13;
@@ -8415,22 +8423,6 @@ h1, h2, h3, h4, h5,
   font-size: 26px;
   position: relative;
   z-index: 0; }
-  .navbar-brand:after {
-    position: absolute;
-    top: 50%;
-    left: -12px;
-    width: 40px;
-    height: 40px;
-    content: '';
-    background: #3e64ff;
-    z-index: -1;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%; }
   .navbar-brand span {
     color: #fff; }
 
